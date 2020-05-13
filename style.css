@@ -1,0 +1,311 @@
+@font-face {
+    font-family: "back_to_nature.ttf";
+    src: url('typo/back_to_nature.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: #095228;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px ;
+    text-align: center;
+    background-color: white;
+    padding: 25px;
+    font-family: "Optima" , sans-serif;
+    color: black;
+}
+
+h3{
+    margin-top: 30px;
+    text-align: left;
+}
+h2{
+    margin-top: 30px;
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* Barre de navigation*/
+
+.navbar{
+    background-color: #095228;
+    border-radius: 25px;
+    height: 55px;
+    margin-bottom: 50px;
+}
+
+.navLogo{
+    border: none;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+ul li {
+    list-style-type: none;
+    border-right:1px solid white ;
+    margin-left: 10px;
+    /* margin-right: 10px; */
+    padding-right: 10px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: yellowgreen;
+}
+
+/* Index */
+
+
+#headband {
+    height: 300px;
+    width: 1000px;
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+}
+#headband p{
+    padding-top: 20px;
+    width: 900px;
+    text-align: center;
+}
+
+.espace_inscription_connexion button{
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: #095228;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+.espace_inscription_connexion button a{
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* Rechercher */
+
+.encart_recherche{
+    height: 40px;
+    width: 800px;
+    background-color: #095228;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.encart_recherche label{
+    text-decoration: underline;
+}
+
+/* LES ANNONCES */ 
+
+.annonces{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: start;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.annonces p {
+    margin-top: 5px;
+}
+
+.encart_annonce{
+    width: 250px;
+    height: 260px;
+    background-color: #095228;
+    border-radius: 25px;
+    padding-top: 15px;
+    margin: 10px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+.encart_annonce p {
+    width: 250px;
+}
+
+.information_annonce{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.auteur_annonce{
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+}
+
+.publication_annonce{
+    font-size: 12px;
+}
+
+.contact_annonce{
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 12px;
+}
+
+/* DEPOSER ANNONCE */ 
+
+
+.depot_annonce{
+    height: 250px;
+    width: 500px;
+    background-color: #095228;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+}
+
+.depot_annonce h2{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+label{
+    color: white;
+    margin-right: 20px;
+}
+
+#nbr_annonce{
+    text-align: right;
+    margin-top: 20px;
+    padding-right: 30px;
+}
+
+
+.encart_profil{
+    height: 400px;
+    width: 500px;
+    background-color: #095228;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    text-align: justify;
+}
+
+.corbeille{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    right: 15px;
+    color: white;
+    background-color: none;
+    border-radius: 25px;
+}
+
+
+input[type=submit] {
+    width: 150px;
+
+}
+
+input, textarea, select{
+    width : 250px;
+    margin: 5px 0px;
+    border-radius: 5px;
+  
+    -webkit-box-sizing: border-box; /* Pour les anciennes versions des navigateurs WebKit */
+       -moz-box-sizing: border-box; /* Pour tous les navigateurs Gecko */
+            box-sizing: border-box;
+  }
+
+
+.encart_inscription{
+    height: 400px;
+    width: 550px;
+    background-color: #095228;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    text-align: justify;
+}
+
+.encart_inscription a{
+    color: white;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+
+
+.encart_connexion{
+    height: 150px;
+    width: 550px;
+    background-color: #095228;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    text-align: center; 
+}
+
+.encart_connexion a{
+    color: white;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+
+
+footer{
+    background: #095228;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-bottom: -25px;
+    width:100%;
+    padding-top:10px;
+    height:100px;
+    color: white;
+    margin-top: 50px;
+    }
+footer p{
+    margin-top: 20px;
+}
