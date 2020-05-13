@@ -13,7 +13,7 @@ if(isset($_POST['forminscription'])) {
    $mdp = sha1($_POST['mdp']);
    $mdp2 = sha1($_POST['mdp2']);
       if(!empty($_POST['recaptcha-response'])) {
-         $url = "https://www.google.com/recaptcha/api/siteverify?secret=6LeTYfUUAAAAAMK5rXFZ3Rmwo3Ll6itLndYS0-fF&response={$_POST['recaptcha-response']}";
+         $url = "https://www.google.com/recaptcha/api/siteverify?secret=//SECRET KEY //&response={$_POST['recaptcha-response']}";
          $response = file_get_contents($url);
             if(empty($response) || is_null($response)) {
                header('Location: inscription.php');
