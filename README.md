@@ -1,7 +1,7 @@
 # PlantDocaz
 Travail personnel 
 
-Site d'annones basée sur l'échange et le don de plantes. 
+Site d'annonces basée sur l'échange et le don de plantes. 
 Système d'inscription / connexion des membres. 
 
 Outils divers : 
